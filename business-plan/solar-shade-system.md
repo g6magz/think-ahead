@@ -1,6 +1,6 @@
 # Think Ahead — Solar Shade System: Pricing, Financing, and Insurance
 
-**Date:** November 23, 2026 (America/Denver)  
+**Date:** November 23, 2026 (America/Denver); sections 14–15 added the same day  
 **Document type:** Business-plan section (research draft)  
 **Market:** Denver / Front Range, Colorado, with later expansion to 13 Hail Alley states  
 **Program context:** Think Ahead is a Colorado public-health investment program. Hail protection is planned to include hail blankets, autonomous solar shade screens, solar carports, and a total solar roof with snow-melt pulses. Financing is **Invest Ahead**, 0% APR, intended to be rolled into the first mortgage, combined with a credit-free in-house loan backed by grid / bill savings. Insurance premiums are a program target: a 10% reduction each year for 10 years, to about $1,100.
@@ -20,7 +20,8 @@ Typical system used throughout (see section 2): a **2,000 sq ft A-frame roof** (
 | Delivered $/sq ft of 2,000 sq ft roof | $28.75 | $56.05 | $102.60 |
 | Recommended customer price at 35% gross margin | $88,500 | **$172,500** | $315,700 |
 | Price at 25% / 45% gross margin (base cost only) | — | $149,500 / $203,800 | — |
-| Gross margin per system at 35% (base) | — | **~$60,400** | — |
+| Gross margin per system at the $172,500 price | — | **$60,400 (35.0%)** | — |
+| Contribution margin at $172,500 (after CAC and warranty reserve) | — | **$43,420 (25.2%)** | — |
 | Install cost included above, estimate | $18,000 | $32,000 | $55,000 |
 | Simple energy-only break-even at the $172,500 price, 0% APR | >80 years | **~75 years** | ~56 years |
 | Loan payoff with insurance bundle, 0% APR, at the $172,500 price | ~36 years | **~32 years** | ~28 years |
@@ -595,6 +596,211 @@ Sources are listed in the order they materially support the draft. Access dates 
 25. SurgePV, [Solar customer acquisition cost 2026](https://www.surgepv.com/blog/solar-customer-acquisition-cost) ($0.60/W in 2025, $0.84/W projected in 2026).
 26. Exchange rate: 1 EUR = 1.097535 USD, open.er-api.com, time last update 00:02 UTC November 23, 2026.
 
+27. U.S. Census Bureau, [QuickFacts housing units, July 1, 2025 (V2025)](https://www.census.gov/quickfacts/geo/chart/US/HSG010225); Denver County QuickFacts (375,287 housing units; 48.8% owner-occupied rate, 2020–2024 ACS).
+28. Colorado State Demography Office, *Population and Household Estimates for Colorado Counties and Municipalities, 2024*, Vintage 2024, prepared August 2025.
+29. U.S. Census Bureau, ACS 2020–2024, tables B25001 (housing units) and B25024 (units in structure), Denver-Aurora-Centennial MSA: 1,290,063 housing units and 736,902 single-family detached (57.1%), as compiled from those tables.
+30. HUD USER, [*Review of Structural Materials and Methods for Home Building in the United States: 1900 to 2000*](https://www.huduser.gov/publications/pdf/review.pdf): 63% gable and 36% hip in the late-1990s / 2000 new-home dataset.
+31. SEIA, [Colorado State Spotlight](https://seia.org/media/18919/colorado.pdf/), November 2026: 9.60% of Colorado homes have solar; 8,071 solar jobs; 379 solar-and-storage companies.
+32. Moody’s, hail-belt / Hail Alley insurance study listing 13 states (Arkansas, Colorado, Illinois, Indiana, Iowa, Kansas, Minnesota, Missouri, Nebraska, Oklahoma, South Dakota, Texas, and Wisconsin). NOAA’s narrower geographic Hail Alley is the area where Nebraska, Colorado, and Wyoming meet.
+33. NREL, *Documenting 15 Years of Reductions in U.S. Solar Photovoltaic System Costs*, NREL/TP-7A40-92536 (January 2025), Table A-5, Q1 2024 residential MMP $3.25/Wdc. NREL, *Cost-Reduction Roadmap for Residential Solar Photovoltaics (PV), 2017–2030*, NREL/TP-6A20-70748 (PII $0.10/W, sales $0.34/W, overhead $0.31/W, 17% profit on direct costs in the 2017 benchmark). DOE, [Solar Photovoltaic System Cost Benchmarks](https://www.energy.gov/cmei/systems/solar-photovoltaic-system-cost-benchmarks). Berkeley Lab, *U.S. Distributed Solar and Storage, 2026 Data Update* (August 2026): soft costs and other BOS about 80% of 2025 median residential price ([Tracking the Sun](https://emp.lbl.gov/tracking-the-sun)).
+34. Wood Mackenzie, [“US residential solar customer acquisition costs set to spike 40% in 2026,”](https://www.woodmac.com/news/opinion/us-residential-solar-customer-acquisition-costs-set-to-spike-40-in-2026-before-gradual-decline/) March 25, 2026: $0.60/W in 2025, $0.84/W projected in 2026.
+35. BLS OEWS May 2025 and state compilations: about 620 Colorado solar photovoltaic installer jobs (SOC 47-2231). O*NET state projections, 650 jobs in 2024 to 900 in 2034. Colorado Energy Office, 2025 climate-workforce report (solar installers among occupations with large projected gaps).
+36. Industry crew-productivity discussions: typical rooftop crews about 3–5 residential installs per week (piece-rate and scheduling guides). Those rates are for standard rooftop PV, not a moving shade system.
+37. SolarTechOnline, 2025 solar carport cost guide (order-of-magnitude stack only; not an NREL benchmark). University of Michigan / CLCF, *Solar Carport Planning Guide* (2025), on canopy and civil work as the main premium over rooftop PV.
+
+
 ---
 
-*End of draft. Prepared November 23, 2026, America/Denver, for the Think Ahead project book.*
+---
+
+## 14. Scale capacity analysis
+
+Question: can in-house manufacturing, subcontracted install labor, and autonomous sales keep up with demand? Demand is not the binding constraint in the first decade if the placeholder volume ramp in section 10.6 is the plan (100 systems in year 1, rising to 1,700 in year 10). Capacity and process are. The verdict at the end of this section is **yes, with conditions**.
+
+### 14.1 Per-unit margins at the $172,500 price (explicit)
+
+These figures use the **rounded recommended price of $172,500** and the base delivered cost and below-the-line items from sections 6 and 7. Gross margin is price minus delivered cost (factory cost plus subcontracted install). Contribution margin here subtracts customer-acquisition cost and the 4% warranty reserve as well. It does **not** subtract the unmodeled cost of funding 0% credit; that subsidy sits with Invest Ahead or a warehouse lender (section 8).
+
+| | Dollars | Percent of $172,500 |
+|---|---:|---:|
+| Recommended price | $172,500 | 100% |
+| Delivered cost (factory + install) | $112,100 | 65.0% |
+| **Gross margin** | **$60,400** | **35.0%** |
+| Customer acquisition ($0.84/W × 12 kW) | $10,080 | 5.8% |
+| Warranty reserve (4% of price, estimate) | $6,900 | 4.0% |
+| **Contribution margin** | **$43,420** | **25.2%** |
+
+If CAC and warranty run as budgeted, about **$43,400 per system** remains to cover residual SG&A, the cost of 0% funds, and net profit. That contribution is an estimate, not a demonstrated result.
+
+### 14.2 Addressable demand
+
+**Denver / Front Range (base market).** The Colorado State Demography Office’s Vintage 2024 county estimates (prepared August 2025) count **2,074,191 housing units** in a 10-county Front Range core: Adams 203,379; Arapahoe 274,271; Boulder 147,925; Broomfield 34,581; Denver 378,170; Douglas 153,240; El Paso 317,276; Jefferson 258,400; Larimer 169,132; and Weld 137,817. Adding Pueblo, Elbert, and Teller (sometimes included in a broader corridor) raises the total to **2,174,386**. Statewide, the same file counts 2,678,831 housing units in 2024; the Census Bureau’s later July 1, 2025 estimate is **2,706,544** housing units in Colorado and **375,287** in Denver County.
+
+The Denver-Aurora-Centennial metropolitan statistical area, a narrower geography than the 10-county corridor, is reported at **1,290,063 housing units** in the 2020–2024 ACS, of which **736,902 (57.1%)** were single-family detached (compilations of Census tables B25001 and B25024). City of Denver itself is more multifamily (owner-occupied rate 48.8% in the 2020–2024 ACS, Census QuickFacts), so the attachable market is concentrated in the suburban counties.
+
+**Roof form.** Jason’s mechanism is for **A-frame / gable** geometry. A HUD review of U.S. home-building methods reported that **63%** of new homes in a late-1990s / 2000 dataset had **gable** roofs and 36% had hip roofs (HUD USER, *Review of Structural Materials and Methods for Home Building in the United States: 1900 to 2000*). That is new-construction, national, and dated; it is the best official-adjacent split found for this draft. Industry explainers often say gable roofs are more than half of U.S. roofs. True “A-frame” houses (steep, triangular cabins) are a **niche** and no reliable nationwide share was found; the product should be sized to **gable roofs**, not only vernacular A-frames. A 60%-range gable share applied to Front Range single-family detached stock is a **planning filter**, not a measured Front Range count.
+
+**Solar adoption (already-solar homes are not automatically out, but they change the pitch).** SEIA’s Colorado state spotlight (November 2026) reports that **9.60% of Colorado homes have solar**. Public Service Company of Colorado (Xcel) had **121,127** residential net-metered installations at year-end 2025 (EIA-861, as compiled in November 2026). Those homes already have a production story; the shade system’s incremental case is hail protection and, if the existing array is displaced or shaded, a redesign.
+
+**Order-of-magnitude addressable set (illustrative).** Start with 2.07 million Front Range housing units. If roughly half to three-fifths are single-family detached (the metro 57.1% is a cited floor; suburban counties will be higher) and roughly 60% of those have gable geometry (HUD-based filter, estimate), the geometric pool is on the order of **0.7–0.9 million roofs** before owner-occupancy, HOA, structural, historic-district, and willingness-to-buy screens. Even a severe cut to 10% of that pool leaves tens of thousands of roofs. The section 10.6 placeholder ramp of 100 to 1,700 systems a year is **well under 1%** of that pool. **Demand size is not the year-1-to-10 bottleneck** if the product and financing work.
+
+**Thirteen Hail Alley states (expansion).** This draft uses the 13-state “hail belt” list from a Moody’s insurance-industry hail study: **Arkansas, Colorado, Illinois, Indiana, Iowa, Kansas, Minnesota, Missouri, Nebraska, Oklahoma, South Dakota, Texas, and Wisconsin**. NOAA’s narrower geographic “Hail Alley” is the area where Nebraska, Colorado, and Wyoming meet; Wyoming is in that geography but **not** in the 13-state list, and only part of Texas is high-hail. Census Bureau housing-unit estimates, July 1, 2025 (V2025):
+
+| State | Housing units (July 1, 2025) |
+|---|---:|
+| Arkansas | 1,435,645 |
+| Colorado | 2,706,544 |
+| Illinois | 5,504,295 |
+| Indiana | 3,052,602 |
+| Iowa | 1,469,096 |
+| Kansas | 1,319,219 |
+| Minnesota | 2,616,906 |
+| Missouri | 2,876,341 |
+| Nebraska | 891,309 |
+| Oklahoma | 1,816,244 |
+| South Dakota | 429,698 |
+| Texas | 12,848,245 |
+| Wisconsin | 2,840,960 |
+| **13-state total** | **39,807,104** |
+
+About **40 million** housing units, of which Texas is nearly one-third. A serviceable expansion market is a fraction of that (single-family, gable, hail-exposed counties, installer footprint). It is still orders of magnitude above a 1,700-per-year run rate. Expansion demand is not the constraint; **multi-state labor, permits, utilities, and 0% capital** are.
+
+### 14.3 Manufacturing throughput, capex, and ramp
+
+Section 7 used a **planning assumption** of a roughly **$4 million** pilot line amortized over about 1,000 systems ($4,000 per system). That is not a vendor quote.
+
+Each typical system uses **24 kW of fabric** (~2,000 sq ft). Required annual fabric output on the placeholder ramp:
+
+| Year | Systems (placeholder) | Fabric output | Active MW installed |
+|---:|---:|---:|---:|
+| 1 | 100 | 2.4 MW (~200,000 sq ft) | 1.2 MW |
+| 3 | 350 | 8.4 MW | 4.2 MW |
+| 5 | 700 | 16.8 MW | 8.4 MW |
+| 10 | 1,700 | 40.8 MW (~3.4 million sq ft) | 20.4 MW |
+
+A 40 MW/year fabric line is **small** next to gigawatt-scale crystalline module plants. If the pilot line is built, certified (UL / IEC for a moving PV product), and yields are acceptable, **in-house manufacturing can keep up with this ramp**, perhaps with a second shift or a modest line expansion by year 10. The manufacturing risks are **schedule and certification**, not nameplate throughput: a late UL listing or poor early yield would idle install crews regardless of capex. Roll-to-roll thin film, if chosen instead of laminated crystalline fabric, is a different and usually heavier capex path and is not bid here.
+
+### 14.4 Subcontracted install labor
+
+A typical U.S. **standard rooftop** solar crew completes about **3–5 installs per week** (on the order of one ordinary system per day; highly standardized work can be faster; Tesla has published more aggressive two-per-day targets that do not apply to a custom moving roof). This shade system combines electrical work, a large retractable structure, possible roof reinforcement, and a PE-stamped permit over 10 kW. **Estimate:** **0.5–1 completed system per crew per week** (one to two weeks on site, plus weather and inspection slack). That is an estimate, not a time-and-motion study.
+
+At **one system per crew-week** and about 50 productive weeks:
+
+| Year | Annual volume | Crew-weeks needed | Standing crews | Technicians at 4 per crew |
+|---:|---:|---:|---:|---:|
+| 1 | 100 | 100 | ~2 | ~8 |
+| 3 | 350 | 350 | ~7 | ~28 |
+| 5 | 700 | 700 | ~14 | ~56 |
+| 10 | 1,700 | 1,700 | ~34 | ~136 |
+
+**Colorado labor availability.** BLS / state compilations of the May 2025 OEWS count about **620 solar photovoltaic installer** jobs in Colorado (SOC 47-2231), median pay about $49,730. O*NET / state projections put employment at 650 in 2024 and 900 in 2034 (~90 openings a year). SEIA (November 2026) reports **8,071 solar jobs** in Colorado more broadly (install, development, manufacturing, other) and 379 solar-and-storage companies. The Colorado Energy Office’s 2025 climate-workforce work flags solar panel installers among occupations with **large projected workforce gaps**. Electricians (SOC 47-2111, Colorado mean $31.88/hour in May 2025) are a second scarce input.
+
+Year 1–3 crew needs (8–28 technicians) are small next to 620 PV installers **if** Think Ahead can hire or subcontract people and train them on a novel system. Year 10’s ~136 technicians would be on the order of **one-fifth of the state’s current PV-installer employment** if all volume stayed in Colorado — a real squeeze, even before ordinary solar employers compete for the same people. The fix is early training partnerships, multi-state crews as Hail Alley expansion starts, and a simpler install (for example PV on one plane only) if site time stays above one week.
+
+### 14.5 Autonomous sales funnel and CAC
+
+“Autonomous sales” is taken here to mean a software-led funnel (qualification, design, proposal, financing illustration) with a thin human closer network, not a large commissioned door-to-door force.
+
+Cited CAC: Wood Mackenzie (March 25, 2026) reported U.S. residential solar CAC at a five-year low of **$0.60/W in 2025**, then a projected **40% rise to $0.84/W in 2026** after the §25D sunset and a contracting market. That $0.84/W is the figure already used in section 7 (**$10,080** per 12 kW system). Post-ITC, Wood Mackenzie also notes a shift toward in-house, multi-product acquisition; a $172,500 hail-plus-solar product is a harder close than a $30,000 solar array, so **autonomous channels may not actually achieve $0.84/W** until the product is familiar. Treat $0.84/W as a **solar-industry analog**, not a measured Think Ahead CAC.
+
+Funnel math (close rate is an **estimate**). Ordinary residential solar close rates on qualified leads are often cited in the mid-single to low-double digits. For a novel, high-ticket system, this draft uses a **5% close rate on qualified proposals** as a planning case:
+
+| Year | Systems | Qualified proposals at a 5% close | Implied annual CAC budget at $10,080 |
+|---:|---:|---:|---:|
+| 1 | 100 | 2,000 | $1.0 million |
+| 3 | 350 | 7,000 | $3.5 million |
+| 5 | 700 | 14,000 | $7.1 million |
+| 10 | 1,700 | 34,000 | $17.1 million |
+
+Front Range housing counts are large enough to supply that lead volume. The risk is **conversion**, not raw names: HOA rules, a price several times fixed solar, a 0% financing story that must be told accurately (bill credits are not a utility paycheck; insurance cannot be tied), and trust in an unproven mechanism. If the close rate is 2% instead of 5%, proposal throughput and CAC both get much worse. The fix is a tighter offer (insurance illustration only when a filed credit exists; cost-down; optional human closers in year 1–3) and measurement of actual CAC before scaling ad spend.
+
+### 14.6 Bottlenecks and fixes by year
+
+| Year | Volume | Bottleneck | Fix |
+|---:|---:|---|---|
+| **1** | 100 | **Productization and sales**, not demand or line speed: UL / PE drawings, first-article yield, a trained install method, and a close rate on a $172,500 novel product. Autonomous sales is unproven at this price. | Finish certification before promising volume; two trained crews and a human-assisted close team; do not hire a 40 MW factory before yield is known. |
+| **3** | 350 | **Trained specialty install crews** and permit-cycle time (PE stamp, possible structural work, HOA). Factory output of 8 MW/year should be manageable if the pilot line is up. | Apprenticeship / subcontractor academy; standardized site kits; pre-approved typical drawings with Denver and suburban jurisdictions. |
+| **5** | 700 | **Install labor** in Colorado (14 standing crews) and **CAC** if close rates stay weak after the ITC sunset (Wood Mackenzie’s $0.84/W environment). 0% financing warehouse capacity also starts to matter. | Multi-county and then multi-state subs; measure CAC and cut poor channels; mortgage take-out so Think Ahead is not carrying every note. |
+| **10** | 1,700 | **Labor and logistics in an expanded footprint**, plus a **factory increment** if still on a single pilot line (~41 MW/year). ~136 technicians would be a large claim on Colorado’s ~620 PV installers if volume had not already left the state. Capital for a large 0% book. | Second shift or a second line; Hail Alley crew bases; keep manufacturing ahead of sales by 6–12 months; public or bank capital for Invest Ahead. |
+
+### 14.7 Verdict
+
+**Yes, with conditions.** Addressable Front Range and Hail Alley demand is large enough that a 100-to-1,700 system ramp does not run out of roofs. In-house manufacturing can match that ramp **if** a certified line is actually built and yields. Subcontracted labor can match years 1–3 in Colorado; by years 5–10, labor — not demand — is the likely constraint unless training and multi-state expansion are underway. Autonomous sales can supply the funnel **if** close rates and CAC stay near the $0.84/W analog; if they do not, sales becomes the bottleneck earlier than the factory. Additional conditions: Invest Ahead capital for 0% loans, PE/permit standardization, and no plan that depends on tying insurance to the loan (section 10.5).
+---
+
+## 15. Cost-share benchmarks
+
+This section compares **cited industry shares of total installed cost** (or installed price) with Jason’s working estimate of **25% labor / 15% material** and with Think Ahead’s own base waterfall (section 7) at the $172,500 price.
+
+Industry sources do not all cut the pie the same way. NREL’s Q1 2024 table separates module, inverter, structural/electrical BOS, **installation labor**, and a remaining **soft-cost** bag (customer acquisition, PII, overhead, and related items). LBNL’s Tracking the Sun residual treats “soft costs and other BOS” as everything except the module and inverter price indices — a much larger slice. Shares below are labeled with the source’s own categories.
+
+### 15.1 Residential rooftop PV
+
+**NREL, Q1 2024 modeled market price (MMP), 8 kW-class residential, 2024 dollars:** **$3.25/Wdc** (NREL/TP-7A40-92536, Table A-5, January 2025).
+
+| Category (NREL) | $/Wdc | Share of $3.25 |
+|---|---:|---:|
+| Module | $0.40 | 12.3% |
+| Inverter | $0.37 | 11.4% |
+| Balance of system (BOS) hardware | $0.62 | 19.1% |
+| **Hardware subtotal (module + inverter + BOS)** | **$1.39** | **42.8%** |
+| **Installation labor** | **$0.21** | **6.5%** |
+| Other soft costs (CAC, PII, overhead, and related) | $1.64 | 50.5% |
+| **Total** | **$3.25** | **100%** |
+
+NREL does not publish a separate profit line in Table A-5. The $1.64 soft-cost remainder can be **illustrated** (not a Table A-5 line item) with contemporaneous CAC and older NREL conventions:
+
+- **Sales and marketing / CAC:** Wood Mackenzie, **$0.60/W in 2025**, projected **$0.84/W in 2026** (March 25, 2026). That is **18.5–25.8%** of the $3.25 Q1 2024 MMP, or **22.7–31.8%** of EnergySage’s November 2026 Colorado average installed price of **$2.64/W**. A 2024 Wood Mackenzie figure used in some permitting studies was **$0.87/W**.
+- **Permitting, inspection, and interconnection (PII):** NREL’s Q1 2017 detailed benchmark included **$0.10/Wdc** for PII (Fu / *Cost-Reduction Roadmap*, NREL/TP-6A20-70748). That is only about **3%** of the 2024 $3.25 total if the dollar amount were unchanged; Denver’s current **$50** PV building-permit fee is even smaller in dollars, but engineering, interconnection, and inspections still add time and cost. A planning range of **about 2–6%** of installed price is consistent with those sources; it is not a 2024 NREL line item.
+- **Overhead / G&A:** The 2017 NREL benchmark used **$0.31/Wdc** for general and administrative overhead. Ramasamy et al. (2022) treated overhead as a **$2,389** fixed cost per project (about $0.30/W on an 8 kW system). On a $3.25/W MMP, that is on the order of **8–11%**.
+- **Profit:** NREL’s long-standing modeling convention is a **17% margin on direct costs** (hardware, labor, sales tax, installation, and permitting fees; excluding CAC and overhead) in the MMP. In the 2017 table that profit line was **$0.32/Wdc**. As a share of today’s lower hardware-heavy or lower-price quotes, profit often lands around **8–12% of price**, but it varies widely by installer. LBNL (2026 data update) explicitly includes profit inside its soft-cost definition and does **not** publish a standalone profit share.
+
+**LBNL Tracking the Sun / U.S. Distributed Solar and Storage 2026 data update (August 2026):** for host-owned stand-alone systems, **“soft costs and other BoS costs collectively represent roughly 80%”** of the median 2025 residential installed price. In that framing, the module and inverter indices are only about **20%**. Soft costs in LBNL’s definition include customer acquisition, installation labor, permitting and interconnection, some financing fees, taxes, and profit. This is a residual, not a full cost-accounting split.
+
+**EnergySage Colorado (November 13, 2026):** average installed price **$2.64/W** ($30,076 for 11.4 kW). EnergySage does not publish a full installer P&L split in that market page.
+
+**SEIA / Wood Mackenzie:** the Solar Market Insight series tracks volume and price; the Wood Mackenzie CAC outlook cited above is the detailed sales-cost benchmark used here. A full 2025–2026 SEIA/WoodMac installed-cost stack with labor and profit shares was not extracted as a standalone table for this draft.
+
+### 15.2 Solar carports and canopies
+
+NREL’s PV cost model is **not published as a carport-specific benchmark**. The extra cost versus rooftop is almost entirely **structure, foundations, engineering, and site work**.
+
+A 2025 industry guide (SolarTechOnline, weaker than NREL/LBNL; use as an order-of-magnitude only) offered a representative per-watt stack: panels $0.50–$0.70, canopy structure $1.20–$1.50, inverters/electrical $0.30–$0.40, installation labor $0.60–$0.80, permits $0.10–$0.20, overhead $0.40–$0.60, implying a roughly **$3.10–$4.20/W** total. On the midpoint of that range (~$3.65/W), **structure-plus-modules-plus-electrical hardware is about 55–65%**, **labor about 16–22%**, **permits about 3–5%**, and **overhead about 11–16%**. Profit was not separately stated. Community carport planning guides (for example University of Michigan / CLCF 2025) likewise identify the canopy and civil work as the main premium over rooftop PV, without a national percentage table.
+
+### 15.3 Retractable solar awnings
+
+No NREL, LBNL, or SEIA/WoodMac **percentage cost-share table** was found for retractable solar awnings. What exists is price and component evidence from section 3 and section 4:
+
+- Conventional motorized retractable awnings: about **$15–$30/sq ft** installed; national average around **$2,700** (Angi, October 31, 2026; Fixr, January 31, 2025).
+- Installation labor on a whole awning often **$300–$1,500**; a motor-only electrician visit **$200–$800** (Awning Guide, October 2, 2026).
+- Permit fees sometimes **$150–$250** (Angi).
+- Finished solar-awning retail equipment: **$3.35–$14.48/W** (section 3).
+
+**Derived estimate (not a published benchmark):** on a typical $2,700 motorized patio install, labor of $300–$1,500 is about **11–56%** (a mid-range $800 is about **30%**); equipment and materials are the majority, often **50–75%**; permits a few percent; sales, overhead, and profit are not broken out. Roof-scale Think Ahead work will not match a patio cassette, so this row is context only.
+
+### 15.4 Percentage-range table (planning view)
+
+Ranges are rounded. “Materials / hardware” means modules (or fabric), inverters, and structural/electrical BOS unless noted.
+
+| Share of total installed price | Residential rooftop PV (cited) | Solar carports / canopies | Retractable solar awnings | Think Ahead base waterfall at $172,500 | Jason’s estimate |
+|---|---|---|---|---:|---:|
+| Materials / hardware | **~43%** NREL Q1 2024 hardware; **~20%** if only module+inverter (LBNL residual framing) | **~55–65%** (industry-guide estimate, including canopy structure) | **~50–75%** derived; no official table | **35.7%** hardware ($61,600); **16.7%** if PV-fabric materials only ($28,800) | **15% material** |
+| Install labor | **~6.5%** NREL Q1 2024 ($0.21/W); included inside LBNL’s ~80% “soft + other BOS” | **~16–22%** (industry-guide estimate) | **~15–40%** derived from $300–$1,500 on a ~$2,700 job | **18.6%** field install ($32,000); **22.0%** if factory labor is added | **25% labor** |
+| Permitting / inspection / interconnection | **~2–6%** (2017 NREL PII $0.10/W and current low Denver PV fees) | **~3–5%** (industry-guide estimate) | A few percent ($150–$250 cited for some awning permits) | In the $32,000 install estimate; Denver PV fee is $50 but PE/structural may add more (not a standalone % here) | — |
+| Sales and marketing / CAC | **~18–32%** at $0.60–$0.84/W on $2.64–$3.25/W prices (Wood Mackenzie / EnergySage / NREL MMP) | Not separately published | Not separately published | **5.8%** ($10,080), funded from gross margin, not from delivered cost | — |
+| Overhead / G&A | **~8–11%** (2017 NREL $0.31/W and 2022 $2,389/project convention) | **~11–16%** (industry-guide estimate) | Not separately published | **7.2%** factory OH+QA+pack+capex ($12,500), plus any residual SG&A taken from margin | — |
+| Profit / margin | NREL models **17% of direct costs**; often **~8–12% of price** if isolated; not a Table A-5 line | Not separately published | Not separately published | **35.0% gross** ($60,400); **25.2% contribution** after CAC and warranty ($43,420) | — |
+
+### 15.5 Comparison with Jason’s 25% labor / 15% material, and with our waterfall
+
+**Jason’s 25/15 does not match current residential rooftop PV.** NREL’s Q1 2024 MMP puts **installation labor at about 6.5%** and **hardware at about 43%** — almost the reverse emphasis of 25% labor and 15% material. LBNL’s finding that ~80% of the 2025 median price is “soft costs and other BOS” can look labor-heavy if “soft” is mistaken for field labor; most of that 80% is CAC, overhead, profit, permitting, and non-module BOS, not wrench time. A 25/15 split resembles a conventional construction job, or an earlier solar era when modules were cheap relative to labor only in some local quotes, more than it resembles 2024–2026 national PV benchmarks.
+
+**Against Think Ahead’s own base waterfall, 25/15 is closer, but only if “material” means PV fabric alone and “labor” means all labor.**
+
+- **Materials:** PV-fabric materials are **16.7%** of the $172,500 price — close to Jason’s **15%**. But the customer is also paying for a moving structure, motors, and electrical BOS. All hardware is **35.7%**, more than twice 15%, and still a bit below NREL rooftop hardware’s 43% because our price is high relative to hardware (the 35% gross margin and $32,000 install dilute the hardware share).
+- **Labor:** Field install is **18.6%** of price; factory plus field labor is **22.0%**. That is in the same band as Jason’s **25%**, and it is **much higher than NREL rooftop labor (6.5%)**, which is what one would expect for a retractable, tilting, roof-scale system.
+- **What 25/15 leaves out:** at our price, CAC (5.8%), factory overhead and capex (7.2%), warranty (4%), and a 35% gross / 25% contribution margin are large. A 25+15=40% labor-and-material story accounts for less than half of the customer price. The rest is structure (if not counted as material), soft costs, and margin.
+
+**Verdict on 25/15:** treat it as a **reasonable first cut for field labor and fabric materials on this product**, not as a description of standard rooftop solar, and not as a complete cost model. For planning, use the section 7 waterfall: about **36% hardware, 19% install labor, 7% factory overhead/capex, and 35% gross margin** (which itself funds CAC, warranty, and a ~25% contribution margin). If Jason’s 15% “material” was meant to be *all* hardware, it is too low for both NREL rooftop PV and this shade system.
+
+*End of draft. Prepared November 23, 2026, America/Denver, for the Think Ahead project book. Sections 14–15 added later the same day.*
