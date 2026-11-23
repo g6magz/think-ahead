@@ -1,6 +1,6 @@
 # Think Ahead — Whole-Home Solar Payback at 30% and 33% Module Efficiency
 
-**Date:** November 23, 2026 (America/Denver)  
+**Date:** November 23, 2026 (America/Denver); section 15 (2×-retail regional-storage scenario) added the same day  
 **Document type:** Business-plan section (research draft)  
 **Companion to:** `business-plan/solar-shade-system.md` (rates, net-metering rules, and the insurance path are reused from that draft so the two sections stay consistent). This file does not replace the shade-system pricing section.  
 **Market:** Denver / Front Range, Colorado.
@@ -36,6 +36,9 @@ Headline takeaways:
 - **A standard 200 A, 240 V service is about 48 kW of entrance capacity.** The 100–110 kW package exceeds that limit in 4 CCR 723-3-3664(a)(II) unless the service is upgraded. Even a 400 A service would be tight.
 - **30–33% modules are mostly not for sale as certified residential products in November 2026.** The closest commercial tandems are in the mid-to-high 20s, with 2027 shipment targets and roadmaps to 29–30% later in the decade (section 3). Cost ranges below are therefore analogs from today’s silicon and building-integrated products, applied to the higher nameplate, and should be read as estimates.
 - **Insurance is not in the main payback.** If the program’s 10%/year premium path from the cited $5,511 Colorado average is added on top, all-retail break-even moves into the mid-to-late 30s. With consumption capped, break-even stays well beyond 100 years. Jason’s path to about $1,100 (which, from a 10% schedule, implies a $3,155 starting premium, not $5,511) is smaller: about $13,055 of 10-year savings and about $43,900 over 25 years, versus $22,805 and $76,647 on the $5,511 path.
+
+
+- **A later planning scenario, in section 15, is now the primary offtake model Jason asked to test:** Think Ahead sells all output to regional battery storage or data centers at **2× retail**, rebates the homeowner’s full electric bill, and keeps the spread. That case is **hypothetical**, not current Xcel or Colorado policy. The electricity-only net-metering paybacks in this summary — about **41 years** if every kWh were worth retail, and about **278–290 years** with use capped — remain the current-tariff reference. Under the section 15 scenario, Think Ahead’s simple payback on its own spread falls to about **21 years** if it is paid 2× retail on generated energy and does not buy a home battery, or about **25–31 years** with a household-sized battery after O&M. It does **not** work as a reason for the homeowner to *buy* the $725,500–$797,500 package: they would only be receiving a ~$1,000–$1,400 bill offset.
 
 The only component that approaches a conventional solar payback on energy alone, and only if its output can actually be used at retail, is the **front carport** (about 15–17 years at the base $3.62/W). The gazebo is next (about 22–24 years). The roof, screens, and garage roll-out do not pay back on electricity inside 25 years at the base costs used here.
 
@@ -349,4 +352,190 @@ Over a 25-year horizon, Path A’s $76,647 of premium savings is real money, but
 
 ---
 
-*End of draft. Prepared November 23, 2026, America/Denver, for the Think Ahead project book. Electricity-only payback is the main result; insurance is a separate overlay in section 11.*
+
+
+---
+
+## 15. Scenario: regional storage at 2× retail
+
+**This section is a hypothetical planning scenario, not current Xcel, Black Hills, or other Colorado utility policy.** Jason’s offtake model is: Think Ahead sells **all** of the system’s output to regional battery-storage facilities or data centers at **double the retail rate**, gives the homeowner **100% of their electric bill** back, and **keeps the spread** (2× revenue minus the bill rebate). Insurance premium reduction is a homeowner benefit. The 25% per-deal contribution margin and the insurance commission are Think Ahead’s take, not customer savings. Battery packs at 3× daily use are costed below; a “no home battery” line assumes the regional facility owns the storage.
+
+The net-metering arithmetic in sections 8–11 is unchanged and remains the current-tariff reference (about **41 years** all-retail, about **278–290 years** consumption-capped, at the base delivered cost).
+
+### 15.1 How the cash flows work, and how margin is treated
+
+| Party | What they receive | What they pay | What this is |
+|---|---|---|---|
+| **Think Ahead — energy** | 2× retail on all sold kWh | The homeowner’s electric bill, plus O&M if it owns the gear | Annual **spread**. This is the primary return in the lease / PPA-style model. |
+| **Think Ahead — insurance** | Year-1 commission **$744–$827**, then about **12%** of the declining premium (~$536 in year 2 down to ~$231 by year 10) | Nothing out of this line (the carrier pays the commission) | Think Ahead’s agency take. Optional; attach rate is not 100%. |
+| **Think Ahead — system sale** | A one-time **contribution margin** only if the homeowner *buys* the system | Delivered cost already incurred | **Not** an annual customer saving and **not** added to the spread. See below. |
+| **Homeowner** | Full bill rebate + the Path A or Path B premium reduction | Either **$0 capex** (Think Ahead owns, like a PPA/lease with no lease payment specified) or the system price under **Invest Ahead 0%** | Homeowner benefit vs. what they pay for the system. |
+
+**Contribution margin — do not double-count.** The **$43,420 (25.2%)** figure in `solar-shade-system.md` is the estimated contribution *after CAC and warranty* on the **$172,500 shade-system price**, not on this whole-home package. That margin is already inside that shade price: it is Think Ahead’s residual on a sale, not an extra check to the homeowner, and it is not added to bill savings or to the 2× spread. If the same 35% gross / 25.2% contribution structure were applied to this package’s base *delivered* cost, the implied customer price would be about **$1,116,000** at 30% (contribution about **$281,000**) or **$1,227,000** at 33% (contribution about **$309,000**). Those dollars appear only in the **homeowner-buys** model, and only once at closing. In the **Think Ahead owns** model they are not earned at all; the return is the annual spread.
+
+### 15.2 Rates, bills, batteries, and O&M used here
+
+**2× rates (scenario):** 2 × $0.15 = **$0.30/kWh**, and 2 × 13.71¢ = **27.42¢/kWh**. Production is the same net AC as in section 6: **117,830 kWh** at 30% and **129,640 kWh** at 33%.
+
+**Bill rebate (what Think Ahead pays the homeowner).** A typical Xcel Colorado household uses **584 kWh/month**, or **7,008 kWh/year**, and the EIA 2025 all-in average price of 15.90¢ implies a typical annual bill of about **$1,114** (WattCosts compilation of EIA Form 861; that average folds in fixed charges). The $7.10 monthly service and facility charge is **$85/year** and is not in the 13.71¢ off-peak volumetric figure. “100% of the electric bill” is shown two ways: energy at $0.15 or 13.71¢, and the cited all-in typical bill. A 9,000 kWh household is also shown.
+
+| Household use | Energy at $0.15 | Energy at 13.71¢ | Energy + $85 service charge at $0.15 / 13.71¢ | All-in at 15.90¢ (typical-bill basis) |
+|---|---:|---:|---:|---:|
+| 7,008 kWh/year (Xcel CO average) | **$1,051** | **$961** | $1,136 / $1,046 | **$1,114** |
+| 9,000 kWh/year | **$1,350** | **$1,234** | $1,435 / $1,319 | **$1,431** |
+
+The rebate is a small slice of 2× revenue because the array produces 12–18 times household use. Changing the bill from $961 to $1,431 moves the spread by only about $470/year.
+
+**Round-trip efficiency.** If energy is cycled through batteries before it is sold, this scenario applies a **10%** loss (90% recovered), as requested. A Powerwall 3 is rated **97.5%** round-trip (EnergySage, May 15, 2026); 10% is a harsher planning haircut. For the **no home battery** line, the base case pays 2× on **generated AC** (the storage or data-center buyer absorbs its own losses). A sensitivity applies the 10% haircut at the offtaker anyway.
+
+**Battery size, 3× daily use, two interpretations (exact figures, then the rounded sizes used in the tables):**
+
+| Interpretation | Daily amount | 3× pack | Rounded size used |
+|---|---:|---:|---:|
+| (a) Household use, 7,008 kWh/year | 19.2 kWh | 57.6 kWh | **58 kWh** |
+| (a) Household use, 9,000 kWh/year | 24.7 kWh | 74.0 kWh | **74 kWh** |
+| (b) Production, 30% (117,830 kWh/year) | 322.8 kWh | 968.5 kWh | **970 kWh** |
+| (b) Production, 33% (129,640 kWh/year) | 355.2 kWh | 1,065.5 kWh | **1,065 kWh** |
+
+**Battery installed cost, 2026 citations:**
+
+- **Base, used in the tables:** EnergySage Marketplace average for a Tesla Powerwall 3, **$998/kWh** installed, typical all-in **$13,473** for one 13.5 kWh unit, before incentives, updated **May 15, 2026**. EnergySage says that figure is about 13% below its marketplace average for home batteries (implying a broader average near $1,150/kWh). No federal 25D credit in 2026.
+- **Model comparison:** NREL / NLR *2025 Annual Technology Baseline*, residential 5 kW / 12.5 kWh LFP, **$885/kWh** overnight capital for 2024 costs in 2023 dollars — a modeled benchmark, not a 2026 quote.
+- **If the pack is really front-of-meter / regional, not a house wall:** the same ATB’s utility-scale 4-hour battery is about **$324/kWh** (2024 costs, 2023 dollars). A 970 kWh pack at residential $/kWh is the wrong analog; the tables show $324/kWh as a sensitivity on interpretation (b) only.
+
+A Powerwall 3 is limited to **four units (54 kWh)** on one residential system. The 58 kWh and 74 kWh packs are already at or above that cap (about 4.3 and 5.5 units). A 970–1,065 kWh pack is **about 72–79 units** and is not a residential product; it is a small community or substation battery.
+
+| Pack | At $998/kWh (base) | At $885/kWh (ATB residential) | At $324/kWh (ATB utility-scale) |
+|---|---:|---:|---:|
+| 58 kWh | **$57,900** | $51,300 | $18,800 |
+| 74 kWh | **$73,900** | $65,500 | $24,000 |
+| 970 kWh | **$968,100** | $858,500 | $314,300 |
+| 1,065 kWh | **$1,062,900** | $942,500 | $345,100 |
+
+**O&M (estimated, deducted in the “net” column only).**
+
+- **PV:** NREL 2025 ATB fixed O&M of **$29.83/kW-DC-year** for 2024 (from DOE 2024: $26.65 system + $3.19 administration). That is about **$2,993/year** at 100.34 kW and **$3,292/year** at 110.37 kW. The DOE Q1 2025 residential PV-only benchmark is a bit higher, **$34/kW-year** (and **$64/kW-year** for PV plus a small home battery); using $29.83 is the conservative-to-middle ATB figure, not the high end.
+- **Battery:** NREL 2025 ATB sets residential battery fixed O&M at **4% of capital cost per year**, with no variable O&M. That 4% is defined as the amount needed to offset degradation so the pack can hold rated capacity over a **15-year** life — so it is already a stand-in for augmentation / partial replacement. This draft **does not also subtract a full pack replacement** at year 10. After year 15, another cycle of capex or FOM would be needed and is not in the simple paybacks.
+- **Net margin** = spread − (PV O&M) − (battery FOM if Think Ahead owns a home/site pack). Insurance commission is shown separately and is **not** in the net energy margin, because attach is optional. Year-1 commission ($744–$827) would improve net payback by only a few tenths of a year and shrinks as the premium falls (10-year average about **$403**, 25-year average about **$299** on Path A).
+
+### 15.3 Think Ahead — annual revenue, rebate, spread, and payback
+
+Base delivered system cost is **$725,500** at 30% and **$797,500** at 33% (section 7). Payback “from the spread” is that capex (plus battery, if any) divided by (2× revenue − bill rebate). Payback “from total revenue” ignores the rebate and is slightly shorter. Payback “net of O&M” deducts the O&M estimate in section 15.2. “Never” means annual O&M exceeds the spread.
+
+Headline pairing: $0.30 offtake with a $0.15 bill, and 27.42¢ offtake with a 13.71¢ bill. Use of 7,008 kWh/year is the Xcel average; 9,000 kWh is the midpoint of the earlier 8,000–10,000 band.
+
+#### 30% efficiency — 117,830 kWh, $725,500 system
+
+**At $0.30/kWh, rebating a $0.15 bill**
+
+| Config | 2× revenue | Bill rebate | Spread | O&M (est.) | Net energy margin | Capex | Payback from spread | Payback net of O&M | Payback from revenue |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| No home battery, 2× on generated AC | **$35,349** | $1,051 (7,008 kWh) | **$34,298** | $2,993 | **$31,305** | $725,500 | **21.2 years** | **23.2 years** | **20.5 years** |
+| Same, 9,000 kWh rebate $1,350 | $35,349 | $1,350 | $33,999 | $2,993 | $31,006 | $725,500 | 21.3 | 23.4 | 20.5 |
+| No home battery, 10% RTE at offtaker, 7,008 kWh | $31,814 | $1,051 | $30,763 | $2,993 | $27,770 | $725,500 | 23.6 | 26.1 | 22.8 |
+| Home 58 kWh @ $998/kWh, 10% RTE, 7,008 kWh | $31,814 | $1,051 | $30,763 | $5,309 | $25,454 | $783,400 | 25.5 | 30.8 | 24.6 |
+| Home 74 kWh @ $998/kWh, 10% RTE, 9,000 kWh | $31,814 | $1,350 | $30,464 | $5,947 | $24,517 | $799,400 | 26.2 | 32.6 | 25.1 |
+| Home 970 kWh @ $998/kWh, 10% RTE, 7,008 kWh | $31,814 | $1,051 | $30,763 | $41,716 | **−$10,953** | $1,693,600 | 55.1 | **never** | 53.2 |
+| Home 970 kWh @ $324/kWh (utility-scale analog), 10% RTE | $31,814 | $1,051 | $30,763 | $15,564 | $15,199 | $1,039,800 | 33.8 | 68.4 | 32.7 |
+
+**At 27.42¢/kWh, rebating a 13.71¢ bill (7,008 kWh unless noted)**
+
+| Config | 2× revenue | Bill rebate | Spread | Net of O&M | Payback from spread | Payback net of O&M | Payback from revenue |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| No home battery, 2× on generated AC | **$32,309** | $961 | **$31,348** | $28,355 | **23.1 years** | **25.6 years** | **22.5 years** |
+| Same, 9,000 kWh rebate $1,234 | $32,309 | $1,234 | $31,075 | $28,082 | 23.3 | 25.8 | 22.5 |
+| Home 58 kWh @ $998/kWh, 10% RTE | $29,078 | $961 | $28,117 | $22,809 | 27.9 | 34.3 | 26.9 |
+| Home 74 kWh, 9,000 kWh rebate | $29,078 | $1,234 | $27,844 | $21,897 | 28.7 | 36.5 | 27.5 |
+| Home 970 kWh @ $998/kWh, 10% RTE | $29,078 | $961 | $28,117 | −$13,598 | 60.2 | **never** | 58.2 |
+
+Low / high delivered cost, no home battery, 2× on generated AC, 7,008 kWh: at $0.30, payback from the spread is **13.7 / 21.2 / 33.4 years** (low / base / high). At 27.42¢ it is **15.0 / 23.1 / 36.6 years**.
+
+#### 33% efficiency — 129,640 kWh, $797,500 system
+
+**At $0.30/kWh, rebating a $0.15 bill**
+
+| Config | 2× revenue | Bill rebate | Spread | O&M (est.) | Net energy margin | Capex | Payback from spread | Payback net of O&M | Payback from revenue |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| No home battery, 2× on generated AC | **$38,892** | $1,051 (7,008 kWh) | **$37,841** | $3,292 | **$34,548** | $797,500 | **21.1 years** | **23.1 years** | **20.5 years** |
+| Same, 9,000 kWh rebate $1,350 | $38,892 | $1,350 | $37,542 | $3,292 | $34,250 | $797,500 | 21.2 | 23.3 | 20.5 |
+| No home battery, 10% RTE at offtaker, 7,008 kWh | $35,003 | $1,051 | $33,952 | $3,292 | $30,659 | $797,500 | 23.5 | 26.0 | 22.8 |
+| Home 58 kWh @ $998/kWh, 10% RTE, 7,008 kWh | $35,003 | $1,051 | $33,952 | $5,608 | $28,344 | $855,400 | 25.2 | 30.2 | 24.4 |
+| Home 74 kWh @ $998/kWh, 10% RTE, 9,000 kWh | $35,003 | $1,350 | $33,653 | $6,246 | $27,406 | $871,400 | 25.9 | 31.8 | 24.9 |
+| Home 1,065 kWh @ $998/kWh, 10% RTE, 7,008 kWh | $35,003 | $1,051 | $33,952 | $45,807 | **−$11,856** | $1,860,400 | 54.8 | **never** | 53.1 |
+| Home 1,065 kWh @ $324/kWh (utility-scale analog), 10% RTE | $35,003 | $1,051 | $33,952 | $17,095 | $16,857 | $1,142,600 | 33.7 | 67.8 | 32.6 |
+
+**At 27.42¢/kWh, rebating a 13.71¢ bill (7,008 kWh unless noted)**
+
+| Config | 2× revenue | Bill rebate | Spread | Net of O&M | Payback from spread | Payback net of O&M | Payback from revenue |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| No home battery, 2× on generated AC | **$35,547** | $961 | **$34,586** | $31,294 | **23.1 years** | **25.5 years** | **22.4 years** |
+| Same, 9,000 kWh rebate $1,234 | $35,547 | $1,234 | $34,313 | $31,021 | 23.2 | 25.7 | 22.4 |
+| Home 58 kWh @ $998/kWh, 10% RTE | $31,993 | $961 | $31,032 | $25,424 | 27.6 | 33.6 | 26.7 |
+| Home 74 kWh, 9,000 kWh rebate | $31,993 | $1,234 | $30,759 | $24,512 | 28.3 | 35.5 | 27.2 |
+| Home 1,065 kWh @ $998/kWh, 10% RTE | $31,993 | $961 | $31,032 | −$14,775 | 60.0 | **never** | 58.2 |
+
+Low / high delivered cost, no home battery, 2× on generated AC, 7,008 kWh: at $0.30, **13.7 / 21.1 / 33.3 years** from the spread. At 27.42¢, **15.0 / 23.1 / 36.4 years**. As in section 9, 30% and 33% land on almost the same year-count when cost scales with watts.
+
+Adding the year-1 insurance commission ($744–$827) to net energy margin shortens those paybacks by only about **0.3–0.6 years**. It is not a meaningful swing factor next to a $31,000–$38,000 spread.
+
+### 15.4 Homeowner position, two ownership models
+
+**Model 1 — Think Ahead owns the system (PPA / lease style).** No homeowner lease payment is specified in this scenario, so the tables treat the household’s capex as **$0**. The homeowner keeps living on Xcel (or another utility), Think Ahead pays that bill in full, and the homeowner also receives the program premium path if they buy the optional policy. Benefits start in year 1. There is no “payback year” in the loan sense.
+
+| Annual homeowner benefit | 7,008 kWh at $0.15 | 7,008 kWh, typical all-in $1,114 | 9,000 kWh at $0.15 |
+|---|---:|---:|---:|
+| Bill fully offset | $1,051 | $1,114 | $1,350 |
+| + Path A premium savings, year 1 / year 10+ | $551 / $3,589 | same | same |
+| Year-1 / year-10+ total | **$1,602 / $4,640** | $1,665 / $4,703 | $1,901 / $4,939 |
+| 25-year bill offset only | $26,280 | $27,850 | $33,750 |
+| 25-year bill + Path A ($76,647) | **$102,900** | $104,500 | $110,400 |
+| 25-year bill + Path B (~$43,900) | $70,200 | $71,800 | $77,600 |
+
+This is a strong household outcome **if** Think Ahead can actually collect 2× retail and is willing to rebate the bill at no other charge. It is funded by the spread in section 15.3, not by net metering.
+
+**Model 2 — Homeowner buys with Invest Ahead at 0% APR.** The household (or the 0% loan) pays for the system. Under this offtake, Think Ahead still sells the power and still only rebates the bill, so the buyer does **not** receive the 2× revenue. Their annual cash benefit is the same bill offset plus premium savings as in Model 1, against a principal of **$725,500** (30%, delivered cost) or **$797,500** (33%) — or about **$1,116,000 / $1,227,000** if the 35% gross-margin price is charged. Simple payback on the bill alone is **about 690 years** at 30% delivered cost and $1,051/year, or **about 160 years** before Path A cumulative savings catch the principal (year 175 at 33%). At the marked-up price, Path A break-even is about **year 244** (30%) to **year 268** (33%). That is in the same “does not pay back in a system lifetime” neighborhood as the current-tariff **consumption-capped** result of **~278–290 years**, and much worse than the prior **41-year** all-retail case, because the household is no longer being credited for 117,830–129,640 kWh at retail — only for its own bill.
+
+If the 0% loan were instead serviced by the **2× revenue** (household keeps the offtake), payback would match Think Ahead’s “from total revenue” column, about **20–23 years** with no home battery. **That is not this scenario.**
+
+### 15.5 Comparison with the prior net-metering paybacks
+
+| View | Prior result (sections 9–11) | This scenario, base cost, no home battery, 2× on generated AC |
+|---|---|---|
+| Who is trying to recoup the $725,500–$797,500? | The homeowner, from bill savings | **Think Ahead**, from the spread (Model 1); or still the homeowner, from only the bill rebate (Model 2) |
+| All kWh at retail ($0.15 / 13.71¢) | **41.0 / 44.9 years** | Not used. 2× revenue is twice that cash, but the household does not keep it. |
+| Use capped, leftover at 1.16¢ | **~278–290 years** at 9,000 kWh | Avoided, *if* the 2× offtake exists. The cap no longer binds because the buyer is not Schedule NM. |
+| Think Ahead payback from the spread, $0.30 / 27.42¢, 7,008 kWh | n/a | **21.2 / 23.1 years** (30%); **21.1 / 23.1 years** (33%); about **23–26 years** after PV O&M |
+| Same, plus a 58 kWh home battery and 10% RTE | n/a | About **25–28 years** from the spread, **30–34 years** after O&M |
+| Same, plus a 970–1,065 kWh pack at $998/kWh | n/a | About **55–60 years** from the spread; **never** after 4% battery FOM |
+| Homeowner, Think Ahead owns (Model 1) | n/a | Immediate bill offset + premium path; 25-year benefit about **$103,000–$110,000** with Path A |
+| Homeowner buys at delivered cost (Model 2) | 41 years (all-retail) or ~278–290 (capped) | **~160–175 years** with Path A, **~500–800 years** on the bill alone |
+
+### 15.6 Feasibility: this offtake does not exist on today’s Colorado tariffs
+
+**No Colorado utility currently buys retail solar at 2× retail — or even at retail — for annual surplus.** Public Service Company of Colorado (Xcel) Schedule NM banks excess kWh at 1:1 against later use in the same TOU period and cashes year-end leftovers out at AHIC (a 2025 secondary figure of about **1.16¢/kWh**; official form values through 2023 were **1.115–2.672¢**). Black Hills Energy’s published year-end leftover rate is **3.489¢/kWh** from January 1, 2026. Both are **avoided-cost / wholesale-like** figures, not 15¢ and not 30¢. A 2× retail price of **27–30¢/kWh** is on the order of **10–25 times** those surplus rates, and about **twice** what the household itself pays for energy.
+
+Data centers and storage operators also have no economic reason, on current market structure, to volunteer that price. Wholesale energy is sold to cover generation and transmission cost, not at a retail markup (Colorado legislative issue brief, April 29, 2026). Xcel’s proposed **Schedule TL** large-load tariff (Advice Letter 2018-Electric, April 2026; PUC proceedings in October 2026) is about data centers **paying incremental generation and transmission costs** so those costs are not shifted onto residences — the opposite direction from paying rooftop solar 30¢/kWh. A data center that can take wholesale, behind-the-meter, or utility-scale solar PPAs would ordinarily be looking at a **lower** cost than residential retail, not double retail.
+
+**What would have to be true for this scenario to become real:**
+
+1. A **bilateral PPA** (or a series of them) with a storage operator, data center, or other large offtaker that agrees to pay 2× the stated retail rate for this output, **or** a **PUC-approved tariff or export rider** that sets that price. Colorado IOU rates and IOU offtake rules are PUC-jurisdictional; a private PPA with a non-utility buyer that is not using the distribution system as a regulated offtaker may still need interconnection approval, and selling energy for resale can raise utility-franchise and FERC/wholesale-market issues. This draft is not legal advice.
+2. An interconnection and delivery path that is **not** Schedule NM (which cannot support this volume or this price), including service-entrance upgrades for a 100 kW-class nameplate (section 8).
+3. Contract term, credit, curtailment, and REC ownership settled in the PPA. A 21-year simple payback only works if the 2× price **holds** for that long.
+4. If storage is in the middle, a decision on whether 2× is paid on generated AC or on energy delivered after losses — the two “no home battery” rows in section 15.3 differ by about two years of payback for a 10% haircut.
+
+Until those exist, the current-tariff reference in sections 8–11 still governs, and the 21-year spread payback should not be used in a customer quote or a loan underwrite.
+
+### 15.7 Sources added for this section
+
+1. EnergySage, [Tesla Powerwall 3 review](https://www.energysage.com/energy-storage/best-home-batteries/tesla-powerwall-battery-complete-review/), updated May 15, 2026: $998/kWh average, $13,473 typical installed, 13.5 kWh usable, 97.5% round-trip, four-unit / 54 kWh cap; about 13% below the EnergySage marketplace average.
+2. National Laboratory of the Rockies (formerly NREL), [2025 Annual Technology Baseline, residential battery storage](https://atb.nlr.gov/electricity/2025/residential_battery_storage): $885/kWh residential (5 kW / 12.5 kWh LFP, 2024 costs in 2023 dollars); FOM at 4% of capital, 15-year degradation-compensation definition; utility-scale 4-hour comparison about $324/kWh in the same ATB family (as compiled in industry write-ups of that table).
+3. National Laboratory of the Rockies, [2025 ATB, residential PV](https://atb.nlr.gov/electricity/2025/residential_pv): FOM $29.83/kW-DC-year for 2024 (DOE 2024). DOE / national-lab [Q1 2025 PV cost benchmarks](https://www.energy.gov/cmei/systems/solar-photovoltaic-system-cost-benchmarks), updated September 2, 2026: residential PV-only O&M $34/kW-DC-year; PV+ESS $64/kW-DC-year.
+4. WattCosts, [Denver electricity rates](https://wattcosts.com/electricity-rates/colorado/denver/): 15.90¢/kWh and 584 kWh/month, EIA Form 861, 2025 annual, implying a typical bill of about $1,114/year.
+5. Black Hills Energy year-end leftover rate **3.489¢/kWh** from January 1, 2026, as compiled by [Net Metering Program, Colorado](https://netmeteringprogram.com/co/). Xcel AHIC and Schedule NM: section 13, sources 9–10.
+6. Xcel proposed Schedule TL / large-load tariff, Advice Letter 2018-Electric (April 2026), coverage of the PUC docket: [Colorado Sun, April 2, 2026](https://coloradosun.com/2026/04/02/data-centers-xcel-energy-colorado-rate-tariff-consumers/) and [October 21, 2026](https://coloradosun.com/2026/10/21/xcel-data-centers-energy-colorado-puc/).
+7. Colorado Legislative Council Staff, [energy generation, distribution, and regulation issue brief](https://content.leg.colorado.gov/sites/default/files/r25-1051-energy-generation-distribution-and-regulation-issue-brief-update-accessible.pdf), April 29, 2026, on wholesale vs. retail pricing.
+8. Shade-system contribution margin $43,420 and insurance commissions $744 / $827 and 12% renewal: `business-plan/solar-shade-system.md`, sections 1, 9, and 10.
+
+---
+
+*End of draft. Prepared November 23, 2026, America/Denver, for the Think Ahead project book. Electricity-only payback is the main result; insurance is a separate overlay in section 11.* Section 15 is a labeled hypothetical offtake scenario and is not current utility policy.
