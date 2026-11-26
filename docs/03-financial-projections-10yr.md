@@ -65,3 +65,23 @@ Related sales-funnel illustration (5% close-rate estimate, $10,080 CAC analog): 
 - An exit or valuation at year 10 or year 15 (an external November 25, 2026 portfolio roll-up recorded Think Ahead’s exit as unmodeled, $0, and warned not to convert the $4.91 million commission path into an exit)
 
 Payback periods for the products themselves are all **longer than 10 years** in the current numbers. See [docs/00-executive-summary.md](00-executive-summary.md) and the business-plan files.
+
+---
+
+## 4. Storage and data center network (scenario, not an adopted P&L)
+
+Jason confirmed that this storage and data-center concept should also update the business plan and the 10-year projections. The full sizing, sources, buyer-class assumptions, and year-1-to-10 table are in [docs/11-storage-network-sizing.md](11-storage-network-sizing.md). **Every figure in this subsection is a labeled planning scenario or a calculation from existing drafts.** It does not replace the statement in section 3 that there is still no adopted, program-wide 10-year P&L, and it still depends on a buyer actually paying the section 15 2×-retail price of 30¢/kWh.
+
+Assumptions used for the line (all stated in the sizing memo): the section 10.6 placeholder install ramp; 30% efficiency; 100% of homes on Tier 2 (Think Ahead owns the system and pays the bill); mid-case data-center shell at $17.6 million per MW-IT plus NREL mid 4-hour batteries; in-area prison offtake capped at an estimated 1.0 MW (8,760 MWh/year); school MWh not assigned because a summer/school-year coincidence study does not exist.
+
+Headline, 30% case (dollars in millions):
+
+| Year | Cum. homes | Sites (5 MW-module equiv.) | Avg MW | IT MW | 4h BESS (MWh) | MWh sold | Prison MWh | School MWh | Bidder / TA DC MWh | Revenue at 30¢ | Op. net after PV O&M | Cum. capex | Cum. cash after capex |
+|---:|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|---:|---:|---:|
+| 1 | 100 | 1 | 1.27 | 0.82 | 5.1 | 11,783 | 8,760 | not modeled | 3,023 | 3.53 | 3.13 | 88.6 | −85.4 |
+| 3 | 650 | 2 | 8.22 | 5.34 | 32.9 | 76,590 | 8,760 | not modeled | 67,830 | 22.98 | 20.35 | 575.7 | −542.8 |
+| 5 | 1,850 | 4 | 23.40 | 15.20 | 93.6 | 217,986 | 8,760 | not modeled | 209,226 | 65.40 | 57.91 | 1,638.5 | −1,511.7 |
+| 10 | 8,350 | 14 | 105.64 | 68.59 | 422.5 | 983,881 | 8,760 | not modeled | 975,121 | 295.16 | 261.40 | 7,395.3 | −6,431.1 |
+| **10-year total** | **8,350** | | | | | | | | | **1,088.7** | **964.2** | **7,395.3** | **−6,431.1** |
+
+Under this scenario the line does not cash-flow in 10 years. The in-area prison cap is already full in year 1, so almost all later megawatt-hours go to the guaranteed data-center / highest-bidder bucket. A 1% Denver-metro penetration of this 100 kW package would be about 106 MW of IT and is a different, much larger case in the sizing memo.

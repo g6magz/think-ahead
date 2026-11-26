@@ -27,6 +27,7 @@ This index was appended in a full project sync requested by Jason (first request
 - [docs/09-open-decisions.md](docs/09-open-decisions.md) — open decisions and gaps pulled from sources
 - [docs/10-people.md](docs/10-people.md) — people actually named in sources (no private contact details)
 - [docs/11-storage-network-and-tiers.md](docs/11-storage-network-and-tiers.md) — Jason’s November 23–25, 2026 storage-network and product-tier ideas
+- [docs/11-storage-network-sizing.md](docs/11-storage-network-sizing.md) — regional storage and data-center network sizing scenario, including a labeled 10-year line projection (November 25, 2026)
 - [GAPS.md](GAPS.md) — inventory of missing source material
 - [rundown/Think-Ahead-Rundown.md](rundown/Think-Ahead-Rundown.md) — spoken-friendly full rundown prepared November 25, 2026, for Jason
 
